@@ -303,11 +303,15 @@ nav{
 }
 
 .room_card_details h4{
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
     font-weight: 800;
     font-family: var(--header-font);
     color: var(--text-dark);
+}
+
+.room_card_details p{
+    font-size: 0.9rem;
 }
 
 .room_card_details h3{
@@ -320,6 +324,7 @@ nav{
     position: relative;
     isolation: isolate;
     background-color: var(--primary-color);
+    margin-top: -1rem;
 }
 
 .intro::before{
@@ -425,7 +430,7 @@ nav{
 
 .menu_items h4{
     margin-bottom: 0.5rem;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 800;
     font-family: var(--header-font);
     color: var(--white);
@@ -496,6 +501,10 @@ nav{
 .footer_socials a:hover{
     color: var(--white);
     background-color: var(--secondary-color);
+}
+
+.footer_col{
+    margin-top: -1rem;
 }
 
 .footer_col h4{
@@ -575,11 +584,17 @@ nav{
     .feature_grid{
         grid-template-columns: repeat(2, 1fr);
     }
+    .menu_items h4{
+        font-size: 1.25rem;
+    }
     .menu_images{
         grid-template-columns: repeat(2, 1fr);
     }
     .menu_banner{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .menu_banner h4{
+        font-size: 2.3rem;
     }
     .footer_container{
         grid-template-columns: repeat(2, 1fr);
