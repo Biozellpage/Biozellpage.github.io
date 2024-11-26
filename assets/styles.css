@@ -278,11 +278,6 @@ nav{
     justify-content: center;
 }
 
-.room_card{
-    margin: 1rem;
-    margin-top: -1rem;
-}
-
 .room_card img{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -430,7 +425,7 @@ nav{
 
 .menu_items h4{
     margin-bottom: 0.5rem;
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 800;
     font-family: var(--header-font);
     color: var(--white);
@@ -580,6 +575,10 @@ nav{
     .about_image:nth-child(1),
     .about_card:nth-child(4){
         transform: translateY(2rem);
+    }
+    .room_card{
+        margin: 1rem;
+        margin-top: -1rem;
     }
     .feature_grid{
         grid-template-columns: repeat(2, 1fr);
