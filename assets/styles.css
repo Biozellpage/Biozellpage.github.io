@@ -425,7 +425,7 @@ nav{
 
 .menu_items h4{
     margin-bottom: 0.5rem;
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 800;
     font-family: var(--header-font);
     color: var(--white);
